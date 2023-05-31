@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid collage</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url("btea.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color:rgba(220, 20, 60, 0.874);
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto au;
+            gap: 20px;
+        }
+        .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+            width: 350px;
+            height: 350px;
+            background-color: rgba(0, 162, 255, 0.241);
+            display: flex;
+            justify-content: center;
+            
+        }
+        .item1{
+            grid-column-start:3 ;
+            grid-column-end: 6;
+        }
+        .item2{
+            grid-column-start: 3;
+            grid-column-end: 3;
+
+        }
+        .item3{
+            grid-column-start:4;
+            grid-column-end: 4;
+        }
+        .item4{
+            grid-column-start: 4;
+            grid-column-end: 4;
+        }
+        .item5{
+            grid-column-start: 5;
+            grid-column-end: 5;
+        }
+        .item6{
+            grid-column: 5;
+            grid-column-end: 5;
+        }
+        .item7{
+            grid-column-start: 6;
+            grid-column-end: 8;
+        }
+        .item8{
+            grid-column-start: 6;
+            grid-column-end: 8;
+        }
+        header{
+            background-image: url(Tbj.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <header1>
+        <h1>CHAI😍</h1>
+    </header1>
+    <div class="grid">
+        <div class="item1"><img src="t1.jpg" width="350px"></div>
+        <div class="item2"><img src="t2.jpg" width="350px"></div>
+        <div class="item3"><img src="t3.jpg" width="350px"></div>
+        <div class="item4"><img src="t4.jpg" width="350px"></div>
+        <div class="item5"><img src="t5.jpg" width="350px"></div>
+        <div class="item6"><img src="t6.jpg" width="350px"></div>
+        
+        
+    </div>
+
+    
+</body>
+</html>
